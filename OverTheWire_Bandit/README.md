@@ -8,6 +8,6 @@ You will need to connect to bandit.labs.overthewire.org via SSH on port 2220. Th
 When progressing to the next levels, it is not required you end your current SSH session; you can simply reference localhost, still utilizing port 2220. For example:  
 **`$ ssh bandit1@localhost -p 2220`**
 
-The directories and filenames will directly pertain to the level you are attempting to access.
+The filenames in this guide directly pertain to the level you are attempting to access.
 
 It is worth noting that items like passwords and RSA keys are subject to change at OverTheWire's sole discretion. The passwords displayed in this guide will be current as the time of publication. I will NOT be revisiting/revising the guide to update passwords and RSA keys; however, the overall process will remain unchanged.
