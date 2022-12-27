@@ -1,8 +1,14 @@
-The password for bandit4 is stored in a hidden file in a directory. We will first need to navigate to the directory in question, and then discover the hidden file.
+The password for bandit4 is stored in a hidden file in a directory. 
 
 **`bandit3@bandit:~$ ls`**  
 *`inhere`*  
+
+We will first need to navigate to the directory in question.
+
 **`bandit3@bandit:~$ cd inhere`**  
+
+Next, we need to discover the hidden file.
+
 **`bandit3@bandit:~/inhere$ ls -a`**  
 *`.  ..  .hidden`*  
 **`bandit3@bandit:~/inhere$ cat .hidden`**  
