@@ -4,3 +4,5 @@ bandit1@bandit:~$ ls
 -
 bandit1@bandit:~$ cat ./-
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+bandit1@bandit:~$ ssh bandit2@localhost -p 2220
+bandit2@localhost's password: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
