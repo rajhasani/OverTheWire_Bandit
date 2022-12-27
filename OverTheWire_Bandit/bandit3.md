@@ -1,7 +1,10 @@
-The password is located in a file that has spaces in the filename. Therefore, each word in the filename with a space after it will need to be appended with a backslash (\)
+The password is located in a file that has spaces in the filename. 
 
 **`bandit2@bandit:~$ ls`**  
 *`spaces in this filename`*  
+
+Each word in the filename with a space after it will need to be appended with a backslash (\\)
+
 **`bandit2@bandit:~$ cat spaces\ in\ this\ filename`**  
 *`aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG`*  
 **`bandit2@bandit:~$ ssh bandit3@localhost -p 2220`**  
