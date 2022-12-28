@@ -6,7 +6,7 @@ There's really not much direction we're given besides a random directory, so let
 **`bandit21@bandit:/etc/cron.d$ ls`**  
 *`cronjob_bandit15_root  cronjob_bandit17_root  cronjob_bandit22  cronjob_bandit23  cronjob_bandit24  cronjob_bandit25_root  e2scrub_all  otw-tmp-dir  sysstat`*  
 
-As we are solving for the password for bandit22, let's take a look inside the relevant file:
+As we are solving for the password to bandit22, let's take a look inside the relevant file:
 
 **`bandit21@bandit:/etc/cron.d$ file cronjob_bandit22`**  
 *`cronjob_bandit22: ASCII text`*  
