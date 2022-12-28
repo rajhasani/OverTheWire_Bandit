@@ -7,5 +7,3 @@ We will need to use a command that will first sort the contents of the file, the
 
 **`bandit8@bandit:~$ sort data.txt | uniq -u`**  
 *`EN632PlfYiZbn3PhVK3XOGSlNInNE00t`*  
-**`bandit8@bandit:~$ ssh bandit9@localhost -p 2220`**  
-*`bandit9@localhost's password:`* EN632PlfYiZbn3PhVK3XOGSlNInNE00t
