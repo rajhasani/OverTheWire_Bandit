@@ -1,4 +1,4 @@
-The password for bandit5 is located in the "inhere" directory, and is apparently the only "human-readable" file within the directory. We will need to find a way to quickly determine which file that is. 
+***The password for bandit5 is located in the "inhere" directory, and is apparently the only "human-readable" file within the directory.***  
 
 **`bandit4@bandit:~$ ls`**  
 *`inhere`*  
@@ -27,4 +27,4 @@ Looks like there are 10 files, each beginning with a dash. Rather than analyze e
 **`bandit4@bandit:~/inhere$ ssh bandit5@localhost -p 2220`**  
 *`bandit5@localhost's password:`* lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 
-At this point, I will cease adding in the lines to ssh into the next level, as it is redundant.
+At this point, I will cease adding in the above lines to ssh into the next level, as it is redundant.
