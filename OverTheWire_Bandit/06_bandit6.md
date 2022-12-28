@@ -1,4 +1,4 @@
-The password for bandit6 is stored somewhere in a directory with defined attributes (human-readable, 1033 bytes in size, non-executable).
+***The password for bandit6 is stored somewhere in a directory with defined attributes (human-readable, 1033 bytes in size, non-executable).***
 
 **`bandit5@bandit:~$ ls`**  
 *`inhere`*  
