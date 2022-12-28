@@ -11,7 +11,7 @@ PORT | STATE | SERVICE
 31046/tcp | open | echo
 31518/tcp | open | ssl/echo
 31691/tcp | open | echo
-21790/tcp | open | ssl/unknown
+31790/tcp | open | ssl/unknown
 31960/tcp | open | echo
 
 Now of these 5 ports, only 2 support SSL; however the prompt states that only one will return the credentials to bandit17, while the other will "simply send back to you whatever you send to it". We can therefore eliminate the port which has "echo" running as a service, leaving us with port 31790:
