@@ -1,4 +1,6 @@
-The password for bandit1 is given in a readme file in the home directory.
+***The password for bandit1 is given in a readme file in the home directory.***
+
+Extremely simple; let's gather the contents of the directory, and extract the contents of the correct file:
 
 **`bandit0@bandit:~$ ls`**  
 *`readme`*  
