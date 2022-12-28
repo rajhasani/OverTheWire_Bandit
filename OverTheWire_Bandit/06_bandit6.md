@@ -15,5 +15,3 @@ Well look at that; only one file in the entire 'inhere' directory has a filesize
 
 **`bandit5@bandit:~/inhere$ cat ./maybehere07/.file2`**  
 *`P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU `*  
-**`bandit5@bandit:~/inhere$ ssh bandit6@localhost -p 2220`**  
-*`bandit6@localhost's password:`*  P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
