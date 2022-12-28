@@ -26,3 +26,5 @@ Looks like there are 10 files, each beginning with a dash. Rather than analyze e
 *`lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR`*  
 **`bandit4@bandit:~/inhere$ ssh bandit5@localhost -p 2220`**  
 *`bandit5@localhost's password:`* lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+At this point, I will cease adding in the lines to ssh into the next level, as it is redundant.
