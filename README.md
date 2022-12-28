@@ -5,4 +5,6 @@ While this guide will reveal answers and processes, it is recommended that you a
 
 Syntax for all guides will be the following:  
 * All commands entered will be in **`bolded code span`**  
-* All responses from commands will be in *`italicized code span`*
+* All responses from commands will be either in
+  * *`italicized code span`* OR
+  * ``` fenced code blocks ```
