@@ -10,4 +10,11 @@ When progressing to the next levels, it is not required you end your current SSH
 
 The filenames in this guide directly pertain to the level you are attempting to access.
 
+Syntax for command I/O is as follows:
+
+* All input commands will be in **`bolded code span`**  
+* All output from commands will be either in
+  * *`italicized code span`* OR
+  * ``` fenced code blocks ```
+
 It is worth noting that items like passwords and RSA keys are subject to change at OverTheWire's sole discretion. The passwords displayed in this guide will be current as the time of publication. I will NOT be revisiting/revising the guide to update passwords and RSA keys; however, the overall process will remain unchanged.
