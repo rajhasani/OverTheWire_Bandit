@@ -1,4 +1,6 @@
-The password for bandit7 is located "somewhere on the server" with ALL of the following attributes: **owned by user bandit7, owned by group bandit6, 33 bytes in size.** Since we do not know where exactly on the server, it would behoove us to begin by navigating out of the home directory and into the root directory. 
+**_The password for bandit7 is located "somewhere on the server" with ALL of the following attributes:_ owned by user bandit7, owned by group bandit6, 33 bytes in size.** 
+
+Since we do not know where exactly on the server, it would behoove us to begin by navigating out of the home directory and into the root directory. 
 
 **`bandit6@bandit:~$ cd /`**
 
