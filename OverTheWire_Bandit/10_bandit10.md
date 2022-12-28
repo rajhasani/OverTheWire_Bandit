@@ -1,4 +1,4 @@
-The password for bandit10 is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.  
+***The password for bandit10 is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.***  
 
 **`bandit9@bandit:~$ ls`**  
 *`data.txt`*  
