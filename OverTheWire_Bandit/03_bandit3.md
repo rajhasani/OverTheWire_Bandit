@@ -1,4 +1,4 @@
-The password is located in a file that has spaces in the filename. 
+***The password for bandit3 is located in a file that has spaces in the filename.***  
 
 **`bandit2@bandit:~$ ls`**  
 *`spaces in this filename`*  
