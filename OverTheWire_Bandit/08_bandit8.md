@@ -7,5 +7,3 @@ We will want to use a command that will quickly return only the line with the gi
 
 **`bandit7@bandit:~$ cat data.txt | grep "millionth"`**  
 *`millionth       TESKZC0XvTetK0S9xNwm25STk5iWrBvP`*  
-**`bandit7@bandit:~$ ssh bandit8@localhost -p 2220`**  
-*`bandit8@localhost's password:`*  TESKZC0XvTetK0S9xNwm25STk5iWrBvP
