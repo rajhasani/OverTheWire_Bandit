@@ -8,7 +8,7 @@ Let's first gather the correct syntax for the usage of the setuid binary by exec
 *`Usage: ./suconnect <portnumber>`*  
 *`This program will connect to the given port on localhost using TCP. If it receives the correct password from the other side, the next password is transmitted back.`*  
 
-So there are a couple steps needed to accomplish this. First, we need to set the localhost to listen on a port that we specify; next, we need to connect to that port using the setuid binary. Since this requires having two commands running simultaneously, this is an excellent use-case for tmux, a terminal multiplexer, which allows us to have two separate terminal emulators running in one terminal window:
+So there are a couple steps needed to accomplish this. First, we need to set the localhost to listen on a port that we specify; next, we need to connect to that port using the setuid binary. Since this requires having two commands running simultaneously, this is an excellent use-case for tmux, a terminal multiplexer, which allows us to have two separate terminal panes running in one terminal emulator window:
 
 **`bandit20@bandit:~$ tmux`**
 
