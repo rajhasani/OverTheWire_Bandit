@@ -1,4 +1,4 @@
-The password for bandit8 is stored somewhere in a text file, next to the word "millionth".
+***The password for bandit8 is stored somewhere in a text file, next to the word "millionth".***
 
 **`bandit7@bandit:~$ ls`**  
 *`data.txt`*
