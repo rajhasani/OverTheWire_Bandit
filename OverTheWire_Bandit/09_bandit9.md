@@ -1,4 +1,4 @@
-The password for bandit9 is stored in the file data.txt and is the only line of text that occurs only once.
+***The password for bandit9 is stored in the file data.txt and is the only line of text that occurs only once.***
 
 **`bandit8@bandit:~$ ls`**  
 *`data.txt`*  
