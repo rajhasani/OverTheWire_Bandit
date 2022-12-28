@@ -1,4 +1,4 @@
-The password for bandit13 is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed.
+***The password for bandit13 is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed.***
 
 Due to permissions issues, we cannot modify the contents of the file within the home directory. OverTheWire recommends to create a temporary working directory within /tmp which will have permissions for us to play around with the file in question. 
 
