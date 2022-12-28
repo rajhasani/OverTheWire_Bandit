@@ -14,7 +14,7 @@ So there are a couple steps needed to accomplish this. First, we need to set the
 
 You will now be within tmux. Hit Ctrl + B, then % to split the terminal into two. You can navigate between the panes by hitting Ctrl + B, and then the arrow key corresponding to the direction you wish to move to. 
 
-In the left pane, we will set up localhost to listen in on a random port, and ensure the current password is passed to the session; I'll use 35000 in this case:
+In the left pane, we will set up localhost to listen in on a random port, and ensure the current password is passed to the session; I'll use port 35000 in this case:
 
 **`bandit20@bandit:~$ echo VxCazJaVykI6W36BkBU0mJTCM8rR95XT | nc -l localhost 35000`**  
 
