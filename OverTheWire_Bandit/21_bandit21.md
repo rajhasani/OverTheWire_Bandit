@@ -24,7 +24,7 @@ Let's now switch to the right pane (Ctrl + B, right arrow key), and run the setu
 *`Read: VxCazJaVykI6W36BkBU0mJTCM8rR95XT`*  
 *`Password matches, sending next password`*  
 
-If you look back at the left window, you'll see that a password has returned, and the netcat connection has closed:
+If you look back at the left window, you'll see that a password has been returned, and the netcat connection has closed:
 
 *`NvEJF7oVjkddltPSrdKEFOllh9V1IBcq`*  
 **`bandit20@bandit:~$ exit`**
