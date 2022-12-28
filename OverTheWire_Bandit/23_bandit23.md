@@ -25,7 +25,7 @@ This shell script does the following:
 2. The "mytarget" variable becomes a modified/truncated MD5 checksum value, using the $myname variable as a seed variable. 
 3. It then copies the contents of the password file for the user referenced within $myname, and then outputs to a file within /tmp/, with the filename being the generated MD5 checksum
 
-If we look closely at the cronjob, the job is set to execute the shell script AS bandit23. Therefore, if we run the shell script, and generate the MD5 for ourselves by manipulating the variable, we should be able to derive the filename for the generated file containing the password for bandit23. 
+If we look closely at the cronjob, the job is set to execute the shell script AS bandit23. Therefore, if we can trigger the shell script, and generate the MD5 for ourselves by manipulating the variable, we should be able to derive the filename for the generated target file containing the password for bandit23. 
 
 **`bandit22@bandit:/etc/cron.d$ cp cronjob_bandit23 /tmp/rajh`**  
 **`bandit22@bandit:/etc/cron.d$ cd /tmp/rajh`**  
