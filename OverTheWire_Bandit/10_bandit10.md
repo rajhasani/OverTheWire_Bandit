@@ -10,5 +10,3 @@ We first need to identify only the strings in the file, and then identify which 
 *`========== password`*  
 *`========== is=`*  
 *`F========== G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s`*  
-**`bandit9@bandit:~$ ssh bandit10@localhost -p 2220`**  
-*`bandit10@localhost's password:`* G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
