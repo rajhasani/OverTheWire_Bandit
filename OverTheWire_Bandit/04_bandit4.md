@@ -1,4 +1,4 @@
-The password for bandit4 is stored in a hidden file in a directory. 
+***The password for bandit4 is stored in a hidden file in a directory.***
 
 **`bandit3@bandit:~$ ls`**  
 *`inhere`*  
