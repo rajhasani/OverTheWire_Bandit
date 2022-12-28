@@ -20,13 +20,13 @@ Now let's begin the decompression process. The instructions say the file is init
 **`bandit12@bandit:/tmp/rajh$ file data2`**  
 *`data2: gzip compressed data, was "data2.bin", last modified: ......`*  
 
-The data now seems to be compressed via gzip.
+The data now seems to be compressed via gzip; we will use zcat to decompress:
 
 **`bandit12@bandit:/tmp/rajh$ zcat data2 > data3`**  
 **`bandit12@bandit:/tmp/rajh$ file data3`**  
 *`data3: bzip2 compressed data, block size = 900k`*
 
-The data is now a compressed via bzip2.
+The data is now a compressed via bzip2; the -d flag will decompress:
 
 **`bandit12@bandit:/tmp/rajh$ bzip2 -d data3`**  
 *`bzip2: Can't guess original name for data3 -- using data3.out`*  
@@ -39,7 +39,7 @@ Yet another gzip compression. Rinse and repeat.
 **`bandit12@bandit:/tmp/rajh$ file data4`**  
 *`data4: POSIX tar archive (GNU)`*
 
-Ah, a tarball! Something new, at least. 
+Tarballs can be decompressed using the -xvf argument. 
 
 **`bandit12@bandit:/tmp/rajh$ tar -xvf data4`**  
 *`data5.bin`*  
@@ -59,8 +59,3 @@ Ah, a tarball! Something new, at least.
 *`data8.bin: gzip compressed data, was "data9.bin", last modified: .......`*  
 **`bandit12@bandit:/tmp/rajh$ zcat data8.bin`**  
 *`The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw`*  
-
-Good lord, finally. 
-
-**`bandit12@bandit:/tmp/rajh$ ssh bandit13@localhost -p 2220`**  
-*`bandit13@localhost's password:`* wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
