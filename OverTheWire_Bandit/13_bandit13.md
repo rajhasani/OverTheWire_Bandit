@@ -12,6 +12,7 @@ Now, let's copy the text file to our new directory...
 
 **`bandit12@bandit:~$ cd /tmp/rajh`**  
 **`bandit12@bandit:/tmp/rajh$ ls`**  
+*`data.txt`*  
 
 Now let's begin the decompression process. The instructions say the file is initially a hexdump:
 
