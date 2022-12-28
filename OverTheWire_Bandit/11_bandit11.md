@@ -1,4 +1,4 @@
-The password for bandit11 is stored in the file data.txt, which contains base64 encoded data.
+***The password for bandit11 is stored in the file data.txt, which contains base64 encoded data.***
 
 **`bandit10@bandit:~$ ls`**  
 *`data.txt`*  
