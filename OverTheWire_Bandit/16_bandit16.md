@@ -1,4 +1,4 @@
-The password for bandit16 can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.
+***The password for bandit16 can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.***
 
 Simple enough:
 
