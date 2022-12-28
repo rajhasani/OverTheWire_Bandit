@@ -11,5 +11,3 @@ At this point, we are going to get a long list of files, most of which have a "f
 *`./var/lib/dpkg/info/bandit7.password`*  
 **`bandit6@bandit:/$ cat ./var/lib/dpkg/info/bandit7.password`**  
 *`z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S`*  
-**`bandit6@bandit:/$ ssh bandit7@localhost -p 2220`**  
-*`bandit7@localhost's password:`* z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
