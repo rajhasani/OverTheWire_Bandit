@@ -1,4 +1,4 @@
-***The password is located in a file named "-" in the home directory. ***
+***The password is located in a file named "-" in the home directory.***  
 
 **`bandit1@bandit:~$ ls`**  
 *`-`*  
