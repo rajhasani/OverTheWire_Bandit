@@ -8,3 +8,5 @@ Syntax for all guides will be the following:
 * All responses from commands will be either in
   * *`italicized code span`* OR
   * ``` fenced code blocks ```
+
+If you are a beginner to OverTheWire wargames, it is recommended you begin with Bandit.
