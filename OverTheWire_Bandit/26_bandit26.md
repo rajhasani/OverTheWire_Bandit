@@ -36,11 +36,9 @@ Then type in:
 **`:set shell=/bin/bash`**  
 **`:sh`**
 
-Look at that; suddenly you're in the home directory, as user bandit26. **DO NOT RESIZE THE TERMINAL WINDOW BACK TO NORMAL YET; THIS WILL EXIT OUT OF _more_ AND THE CONNECTION WILL CLOSE AGAIN.**  
-
-Even though we have the PEM file within bandit25, let's quickly grab the password for bandit26 anyways.
+Look at that; suddenly you're in the home directory, as user bandit26. Even though we have the PEM file within bandit25, let's quickly grab the password for bandit26 anyways.
 
 **`bandit26@bandit:~$ cat /etc/bandit_pass/bandit26`**  
 *`c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1`*
 
-While we're here, running an ls shows us a setuid binary pertaining to bandit27. This may be relevant to access bandit27, and we don't want to lose our connection to bandit26, so keep the terminal window shrunk. 
+While we're here, running an ls shows us a setuid binary pertaining to bandit27. This may be relevant to access bandit27, and we don't want to lose our connection to bandit26, so let's move quickly. 
