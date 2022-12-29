@@ -2,7 +2,7 @@
 
 This is fairly straightforward; we will clone the repository, which is located on the localhost. We need to do two things to accomplish this:
 1. We need to navigate to a directory which has write access enabled (the temp directory created previously should already have these permissions enabled, but we'll reenable it again just to be sure)
-2. Since the repo is located on localhost and will be cloned from SSH, we need to append port 2220 to the link git repo link provided
+2. Since the repo is located on localhost and will be cloned via SSH, we need to append port 2220 to the link git repo link provided
 
 **`bandit27@bandit:~$  cd /tmp/rajh`**  
 **`bandit27@bandit:/tmp/rajh$ chmod 777 /tmp/rajh`**  
