@@ -7,6 +7,9 @@ This is fairly straightforward; we will clone the repository, which is located o
 **`bandit27@bandit:~$  cd /tmp/rajh`**  
 **`bandit27@bandit:/tmp/rajh$ chmod 777 /tmp/rajh`**  
 **`bandit27@bandit:/tmp/rajh$ git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo`**  
+
+We are prompted for a password here for bandit27-git, but are told earlier it's the same password as the password for bandit27. Complete the clone.
+
 **`bandit27@bandit:/tmp/rajh$ ls`**  
 *`repo`*  
 **`bandit27@bandit:/tmp/rajh$ cd repo`**  
