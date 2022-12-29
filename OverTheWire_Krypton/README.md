@@ -8,7 +8,7 @@ You will need to connect to krypton.labs.overthewire.org via SSH on port 2231. T
 When progressing to the next levels, it is not required you end your current SSH session; you can simply reference localhost, still utilizing port 2231. For example:  
 **`$ ssh krypton2@localhost -p 2231`**
 
-### The filenames in this guide directly pertain to the level you are attempting to access. Example: 02_krypton2.md is a guide for which you are currently on krypton1, attempting to access krypton2.
+### The filenames in this guide directly pertain to the level you are attempting to access, i.e. the intended solution. Example: 02_krypton2.md is a guide for which you are currently on krypton1, attempting to access krypton2.
 
 Syntax for command I/O is as follows:
 
