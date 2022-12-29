@@ -1,4 +1,4 @@
-This folder is a level-by-level write-up of OverTheWire's Krypton wargame.
+This folder is a level-by-level write-up of OverTheWire's Krypton wargame, intended to give hands on experience with cryptography and cryptanalysis. The levels progress from classic ciphers, to modern, easy to harder.
 
 The guide and instructions for each level can be accessed at https://overthewire.org/wargames/krypton/
 
