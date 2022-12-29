@@ -8,7 +8,7 @@ You will need to connect to bandit.labs.overthewire.org via SSH on port 2220. Th
 When progressing to the next levels, it is not required you end your current SSH session; you can simply reference localhost, still utilizing port 2220. For example:  
 **`$ ssh bandit1@localhost -p 2220`**
 
-The filenames in this guide directly pertain to the level you are attempting to access.
+### The filenames in this guide directly pertain to the level you are attempting to access. Example: 13_bandit13.md means you are currently on bandit12, attempting to access bandit13.
 
 Syntax for command I/O is as follows:
 
