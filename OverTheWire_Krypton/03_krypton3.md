@@ -1,11 +1,11 @@
 OverTheWire gives a long description here of the puzzle, but to make a long story short: 
 
-* The contents of the file containing the password (*`krypton3`*) are encrypted using a Caesar cipher, which shifts the alphabet by a set number. 
-  * A ROT13 cipher is, in essence, a Caeser cipher, where the set number the alphabet is shifted by is 13. 
-* There is a binary (*`encrypt`*) in the directory that will encrypt whatever sample text/file you pass to it with the same Caesar cipher used on the password file
-* The keyfile needs to be present in the current working directory, i.e. wherever your sample file resides. 
-  * The binary, apparently, does not, but will attempt to reference the keyfile and sample file within the same directory
-* The binary runs as user/setuid krypton3, so ensure your working directory has adequate permissions to be written to
+* **The contents of the file containing the password (*`krypton3`*) are encrypted using a Caesar cipher, which shifts the alphabet by a set number.** 
+  * **A ROT13 cipher is, in essence, a Caeser cipher, where the set number the alphabet is shifted by is 13.**
+* **There is a binary (*`encrypt`*) in the directory that will encrypt whatever sample text/file you pass to it with the same Caesar cipher used on the password file**
+* **The keyfile needs to be present in the current working directory, i.e. wherever your sample file resides.** 
+  * **The binary, apparently, does not, but will attempt to reference the keyfile and sample file within the same directory**
+* **The binary runs as user/setuid krypton3, so ensure your working directory has adequate permissions to be written to**
 
 Let's get this going: 
 
