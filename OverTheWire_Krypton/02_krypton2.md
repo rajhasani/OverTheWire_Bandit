@@ -2,13 +2,13 @@
 
 As stated in the description for accessing krypton1, all files for the levels are located in a directory called /krypton/.
 
-***`krypton1@bandit:~$ cd /krypton/`***  
-***`krypton1@bandit:/krypton$ ls`***  
+**`krypton1@bandit:~$ cd /krypton/`**  
+**`krypton1@bandit:/krypton$ ls`**  
 *`krypton1  krypton2  krypton3  krypton4  krypton5  krypton6`*  
-***`krypton1@bandit:/krypton$ cd krypton1`***  
-***`krypton1@bandit:/krypton/krypton1$ ls`***  
+**`krypton1@bandit:/krypton$ cd krypton1`**  
+**`krypton1@bandit:/krypton/krypton1$ ls`**  
 *`krypton2  README`*  
-***`krypton1@bandit:/krypton/krypton1$ cat README`***  
+**`krypton1@bandit:/krypton/krypton1$ cat README`**  
 ```
 ..
 .. 
@@ -24,10 +24,9 @@ the cipher text.
 Enjoy!
 ```
 
-This description differs slightly than the one provided above, which is directly from the website, in that it specifies that the file is encrypted using a ROT13. We dealt with one of these in Bandit, so this *should* be straightforward.
+This description differs slightly than the one provided above, which is directly from the website, in that it specifies that the file is encrypted using a ROT13. We dealt with one of these in Bandit, so this should be straightforward.
 
-***`krypton1@bandit:/krypton/krypton1$ cat krypton2`***  
+**`krypton1@bandit:/krypton/krypton1$ cat krypton2`**  
 *`YRIRY GJB CNFFJBEQ EBGGRA`*  
-
-Take this output over to rot13.com, and we get:  
+**`krypton1@bandit:/krypton/krypton1$ echo "YRIRY GJB CNFFJBEQ EBGGRA" | tr [A-Z] [N-ZA-M]`**  
 *`LEVEL TWO PASSWORD ROTTEN`*  
