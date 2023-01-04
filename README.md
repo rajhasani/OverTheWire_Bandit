@@ -1,4 +1,4 @@
-This folder is a level-by-level write-up of OverTheWire's Bandit wargame, which is intended to be an elementary introduction to basic Linux commands.
+This repo is a level-by-level write-up of OverTheWire's Bandit wargame, which is intended to be an elementary introduction to basic Linux commands.
 
 The guide and instructions for each level can be accessed at https://overthewire.org/wargames/bandit/
 
