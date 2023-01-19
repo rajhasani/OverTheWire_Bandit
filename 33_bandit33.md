@@ -39,7 +39,12 @@ drwxr-xr-x 49 root     root      4096 Dec  3 08:14 ..
 -rwsr-x---  1 bandit33 bandit32 15128 Dec  3 08:14 uppershell
 ```
 
-Now that's interesting; even though the shell is assigned to the bandit32 group, bandit33 is the owner. This should mean that within this shell, we have the same permissions that bandit33 has. Using previous knowledge: 
+Now that's interesting; even though the shell is assigned to the bandit32 group, bandit33 is the owner. 
+
+**`$ whoami`**  
+*`bandit33`*  
+
+Nice.
 
 **`$ cat /etc/bandit_pass/bandit33`**  
 *`odHo63fHiFqcWWJG9rLiLDtPm45KzUKy`*  
